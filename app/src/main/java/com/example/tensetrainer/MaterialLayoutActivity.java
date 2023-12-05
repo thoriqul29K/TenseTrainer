@@ -4,8 +4,6 @@ import android.view.View;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.tensetrainer.R;
-
 public class MaterialLayoutActivity extends AppCompatActivity {
 
     @Override
