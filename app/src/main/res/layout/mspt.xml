@@ -4,8 +4,6 @@
     android:layout_height="match_parent">
 
     <!-- Header Section -->
-
-    <!-- Scrollable Content -->
     <RelativeLayout
         android:id="@+id/headerLayout"
         android:layout_width="match_parent"
@@ -36,7 +34,6 @@
             android:text="Simple Past Tense"
             android:textColor="@color/white"
             android:textSize="24sp" />
-
     </RelativeLayout>
 
     <androidx.core.widget.NestedScrollView
@@ -49,26 +46,79 @@
         <!-- Your existing content goes here -->
         <RelativeLayout
             android:layout_width="match_parent"
-            android:background="@color/hijau"
+            android:background="@color/white"
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/SPTIntro"
-                android:layout_width="420dp"
+                android:id="@+id/SPTJIntro"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:background="@color/ungu"
-                android:text="Introduction:"
-                android:textSize="45sp" />
+                android:background="@color/hijau"
+                android:text="Introduction"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:padding="16dp"/>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/SPTIntro"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:layout_below="@id/SPTIntro"
-                android:text="@string/lipsum"
+                android:layout_below="@id/SPTJIntro"
+                android:text="The simple past tense is used to talk about completed actions or events that happened in the past. It is often used to describe specific actions that occurred at a definite time in the past or to discuss past habits or states. In English, the simple past tense is formed by adding '-ed' to regular verbs or using the past tense form for irregular verbs."
                 android:layout_marginTop="20dp"
-                android:textSize="45sp" />
-        </RelativeLayout>
+                android:textSize="25sp"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/SPTJCRT"
+                android:layout_below="@id/SPTIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@color/hijau"
+                android:text="Characteristic"
+                android:textSize="40sp"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/SPTCRT1"
+                android:layout_below="@id/SPTJCRT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginTop="30dp"
+                android:text="1. Completed Actions= The simple past tense is used to talk about actions or events that have already happened and are completed in the past. It is used to describe specific actions that occurred at a definite time in the past.\n\n2. Time Marker: The simple past tense is often used with time markers or expressions that indicate a specific time in the past, such as yesterday, last week, or in 1990.\n3. Regular and Irregular Verbs: Regular verbs form the simple past tense by adding '-ed' to the base form of the verb. Irregular verbs have their own unique forms in the simple past tense and do not follow the regular '-ed' pattern.\n4. No Connection to the Present: The simple past tense indicates that the action or event took place in the past and does not have any connection to the present moment.\n5. No Duration: The simple past tense is used for actions or events that were completed in the past and are not ongoing or continuing. It does not indicate the duration of the action.\n6. Reported Speech: The simple past tense is often used when reporting someone's words or thoughts that were expressed in the past.\n7. Past Habits or States: The simple past tense can be used to talk about past habits or states that no longer exist in the present.\n8. Sequences of Events: The simple past tense is used to describe a series of events that happened in the past, indicating the order in which they occurred.\n9. No Modal Auxiliary Verbs: The simple past tense does not use modal auxiliary verbs such as 'an', 'could', 'may', 'might', 'shall', 'should', 'will', 'would', 'must', etc. Instead, it uses the auxiliary verb 'did' for negative and interrogative forms.\n10. No Future Reference: The simple past tense is used to talk about the past and does not indicate future actions or events."
+                android:textSize="25sp"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/SPTCRT2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_below="@id/SPTCRT1"
+                android:text="Positive Form:\nSubject + Verb (Past Tense) + Object\n\nExamples:\n\nI watched a movie last night.\nShe completed her assignment on time.\n\nNegative Form:\nSubject + Did not (didn't) + Verb (Base Form) + Object\n\nExamples:\n\nThey didn't go to the party.\nHe didn't finish his work yesterday.\n\nInterrogative Form:\nDid + Subject + Verb (Base Form) + Object?\n\nExamples:\n\nDid you visit your grandparents over the weekend?\nDid she play tennis yesterday?"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/testis"
+                android:layout_below="@id/SPTCRT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/htmltexttest"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:padding="16dp"
+                android:lineSpacingExtra="4dp"
+                android:textAlignment="textStart"
+                android:autoLink="web"
+                android:linksClickable="true" />
+
+</RelativeLayout>
     </androidx.core.widget.NestedScrollView>
 </RelativeLayout>
