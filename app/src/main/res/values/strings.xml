@@ -1,8 +1,36 @@
-<resources>
+<resources xmlns:background="http://schemas.android.com/apk/res-auto">
     <string name="app_name">TenseTrainer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="lipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="lipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u0027s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
     <string name="htmltexttest"><b>Bold</b> <i>Italic</i> <u>Underlined</u> <br>  Line 2 </br> <font color="#FF0000">Red</font> <a href="http://www.google.com">Google</a> <sup>Superscript</sup> <sub>Subscript</sub></string>
-</resources>
 
+    <string name="SPTcrt">1. <b>Completed Actions</b> \n\nThe simple past tense is used to talk about actions or events that have already happened and are completed in the past. It is used to describe specific actions that occurred at a definite time in the past.\n\n
+    2. <b>Time Marker</b>\n\nThe simple past tense is often used with time markers or expressions that indicate a specific time in the past, such as yesterday, last week, or in 1990.\n
+    \n3. <b>Regular and Irregular Verbs</b> \n\nRegular verbs form the simple past tense by adding \u0027-ed\u0027 to the base form of the verb. Irregular verbs have their own unique forms in the simple past tense and do not follow the regular \u0027-ed\u0027 pattern.\n\n
+    4. <b>No Connection to the Present</b> \n\nThe simple past tense indicates that the action or event took place in the past and does not have any connection to the present moment.\n\n
+    5. <b>No Duration</b> \n\nThe simple past tense is used for actions or events that were completed in the past and are not ongoing or continuing. It does not indicate the duration of the action.\n\n
+    6. <b>Reported Speech</b> \n\nThe simple past tense is often used when reporting someone\u0027s words or thoughts that were expressed in the past.\n\n
+    7. <b>Past Habits or States</b> \n\nThe simple past tense can be used to talk about past habits or states that no longer exist in the present.\n\n
+    8. <b>Sequences of Events</b> \n\nThe simple past tense is used to describe a series of events that happened in the past, indicating the order in which they occurred.\n\n
+    9. <b>No Modal Auxiliary Verbs</b> \n\nThe simple past tense does not use modal auxiliary verbs such as \u0027an\u0027, \u0027could\u0027, \u0027may\u0027, \u0027might\u0027, \u0027shall\u0027, \u0027should\u0027, \u0027will\u0027, \u0027would\u0027, \u0027must\u0027, etc. Instead, it uses the auxiliary verb \u0027did\u0027 for negative and interrogative forms.\n\n
+    10. <b>No Future Reference</b> \n\nThe simple past tense is used to talk about the past and does not indicate future actions or events.</string>
+
+    <string name="SPTformstest">The simple past tense of a verb is used to <u>describe an action that happened in the past and is no longer happening</u>. In English, the simple past tense is formed by adding \u0027-ed\u0027 to the base form of regular verbs. However, irregular verbs have their own unique forms in the simple past tense and do not follow the regular \u0027-ed\u0027 pattern.\n\nFor example:\n\n- Regular verb (walk): <font color="#FF0000">I</font> <font color="#673AB7">walked</font> to <font color="#4CAF50">the store.</font>\n- Irregular verb (go): <font color="#FF0000">I</font> <font color="#673AB7">went</font> to <font color="#4CAF50">the park</font>.\n\nIt\u0027s important to learn the past tense forms of verbs to communicate effectively in English.</string>
+    <string name="SPTforms">Positive Form(+):\n\n
+        <font color="#FF0000">Subject</font> + <font color="#673AB7">Verb 2</font> + <font color="#4CAF50">Object</font>\n\n\n
+Examples:\n\n
+        <font color="#FF0000">I</font> <font color="#673AB7">watched</font> <font color="#4CAF50">a movie</font> last night.\n
+She completed her assignment on time.\n\n
+Negative Form(-):\n\n
+Subject + Did not (didn\u0027t) + Verb 1 + Object\n\n\n
+Examples:\n\n
+They didn\u0027t go to the party.\n
+He didn\u0027t finish his work yesterday.\n\n
+Interrogative Form(?):\n\n
+Did + Subject + Verb 1 + Object?\n\n
+Examples:\n\n
+Did you visit your grandparents over the weekend?\n
+Did she play tennis yesterday?</string>
+
+</resources>
