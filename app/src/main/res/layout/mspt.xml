@@ -116,18 +116,18 @@
                 android:padding="16dp"/>
 
             <TextView
-                android:id="@+id/testis"
-                android:layout_below="@id/SPTforms"
-                android:layout_width="wrap_content"
+                android:id="@+id/Devs"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/htmltexttest"
-                android:textSize="16sp"
-                android:textColor="@android:color/black"
-                android:padding="16dp"
-                android:lineSpacingExtra="4dp"
-                android:textAlignment="textStart"
-                android:autoLink="web"
-                android:linksClickable="true" />
+                android:textColor="@color/white"
+                android:layout_below="@id/SPTforms"
+                android:text="@string/Devs"
+                android:gravity="center"
+                android:background="@color/hijau"
+                android:layout_marginTop="20dp"
+                android:textSize="10sp"
+                android:padding="16dp"/>
+
 
 </RelativeLayout>
     </androidx.core.widget.NestedScrollView>

@@ -31,7 +31,7 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="10dp"
             android:layout_toEndOf="@+id/backButton"
-            android:text="Simple Present Tense"
+            android:text="Simple Future Tense"
             android:textColor="@color/white"
             android:textSize="24sp" />
     </RelativeLayout>
