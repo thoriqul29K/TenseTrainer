@@ -125,7 +125,47 @@ Examples:\n\n
 <font color="#666666">Will</font> <font color="#FF0000">you</font> <font color="#673AB7">join</font> us for dinner?\n
 <font color="#666666">Shall</font> <font color="#FF0000">we</font> <font color="#673AB7">start</font> the meeting now?\n\n\n</string>
 
+<!--Past Continuous Tense-->
+    <string name="PCTcrt">1. <b>Ongoing Action in the Past</b>\n\n
+The past continuous tense is used to describe an action or event that was in progress at a specific time in the past. It indicates that the action was happening continuously over a period of time.\n\n
 
+2. <b>Background or Context</b>\n\n
+The past continuous tense is often used to provide background information or context for another action or event that occurred in the past. It helps to set the stage for the main action.\n\n
+
+3. <b>Specific Time in the Past</b>\n\n
+The past continuous tense is used to describe an action or event that was happening at a specific point in the past. It emphasizes that the action was taking place at that particular time.\n\n
+
+4. <b>Interrupted Actions</b>\n\n
+The past continuous tense is also used to describe an action that was interrupted by another action or event in the past. It shows that the ongoing action was stopped or halted by something else.\n\n</string>
+
+
+    <string name="PCTforms">Positive Form (+):\n\n
+The positive form of the past continuous tense is used to <b>make affirmative statements about ongoing actions or events that took place in the past</b>. It indicates that something was happening continuously or in progress at a specific time in the past.\n\n\n
+Formula = <font color="#FF0000">Subject</font> + <font color="#964B00">was/were</font> + <font color="#673AB7">verb-ing</font>\n\n\n
+
+Example sentences:\n\n
+
+<font color="#FF0000">She</font> <font color="#964B00">was</font> <font color="#673AB7">reading</font> a book when I called her.\n
+<font color="#FF0000">We</font> <font color="#964B00">were</font> <font color="#673AB7">walking</font> in the park yesterday evening.\n\n\n
+
+Negative Form (-):\n\n
+The negative form of the past continuous tense is used to <b>indicate that an ongoing action or event was not happening in the past</b>. It is used to deny or negate the occurrence of an action.\n\n\n
+Formula = <font color="#FF0000">Subject</font> + <font color="#964B00">was/were</font> + <font color="#FFEB3B">not</font> + <font color="#673AB7">verb-ing</font>\n\n\n
+
+Example sentences:\n\n
+
+<font color="#FF0000">He</font> <font color="#964B00">was</font> <font color="#FFEB3B">not</font> <font color="#673AB7">studying</font> when I saw him.\n
+<font color="#FF0000">hey</font> <font color="#964B00">were</font> <font color="#FFEB3B">not</font> <font color="#673AB7">playing</font> football at that time.\n\n\n
+
+Interrogative Form (?):\n\n
+The interrogative form of the past continuous tense is used to <b>ask questions about ongoing actions or events that took place in the past</b>. It is used to inquire about the circumstances or details of past actions.\n\n\n
+
+Formula = <font color="#964B00">Was/Were</font> + <font color="#FF0000">subject</font> + <font color="#673AB7">verb-ing</font> + ?\n\n\n
+
+Example sentences:\n\n
+
+<font color="#964B00">Was</font> <font color="#FF0000">she</font> <font color="#673AB7">watching</font> TV when the phone rang?\n
+<font color="#964B00">Were</font> <font color="#FF0000">they</font> <font color="#673AB7">studying</font> for the exam last night?\n\n</string>
 
 
 </resources>

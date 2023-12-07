@@ -53,11 +53,11 @@
                 android:id="@+id/SFTJIntro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
                 android:background="@color/hijau"
                 android:text="Introduction"
                 android:textAlignment="center"
-                android:textSize="40sp" />
+                android:textColor="@color/black"
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/SFTIntro"
@@ -79,7 +79,7 @@
                 android:background="@color/hijau"
                 android:text="Characteristics"
                 android:gravity="center"
-                android:textSize="40sp" />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/SFTCRT1"
@@ -102,7 +102,7 @@
                 android:background="@color/hijau"
                 android:text="Forms"
                 android:gravity="center"
-                android:textSize="40sp" />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/SFTforms"

@@ -57,7 +57,7 @@
                 android:background="@color/hijau"
                 android:text="Introduction"
                 android:textAlignment="center"
-                android:textSize="40sp" />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/SPRTIntro"
@@ -79,7 +79,7 @@
                 android:background="@color/hijau"
                 android:text="Characteristics"
                 android:gravity="center"
-                android:textSize="40sp" />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/SPRTCRT1"
@@ -102,7 +102,7 @@
                 android:background="@color/hijau"
                 android:text="Forms"
                 android:gravity="center"
-                android:textSize="40sp" />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/SPRTforms"

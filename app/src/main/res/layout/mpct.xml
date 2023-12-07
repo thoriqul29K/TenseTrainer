@@ -31,7 +31,7 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="10dp"
             android:layout_toEndOf="@+id/backButton"
-            android:text="Simple Past Tense"
+            android:text="Past Continuous Tense"
             android:textColor="@color/white"
             android:textSize="24sp" />
     </RelativeLayout>
@@ -50,52 +50,52 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/SPTJIntro"
+                android:id="@+id/PCTJIntro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
                 android:background="@color/hijau"
                 android:text="Introduction"
                 android:textAlignment="center"
+                android:textColor="@color/black"
                 android:textSize="32sp" />
 
             <TextView
-                android:id="@+id/SPTIntro"
+                android:id="@+id/PCTIntro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:layout_below="@id/SPTJIntro"
-                android:text="The simple past tense is used to talk about completed actions or events that happened in the past. It is often used to describe specific actions that occurred at a definite time in the past or to discuss past habits or states. In English, the simple past tense is formed by adding '-ed' to regular verbs or using the past tense form for irregular verbs."
+                android:layout_below="@id/PCTJIntro"
+                android:text="The past continuous tense is used to describe an ongoing action or event that was happening at a specific point in the past. It emphasizes the duration or continuity of an action in the past. This tense is formed using the past tense of the verb 'to be' (was/were) and the present participle form of the main verb (-ing form)."
                 android:layout_marginTop="20dp"
                 android:textSize="15sp"
                 android:padding="16dp"/>
 
             <TextView
-                android:id="@+id/SPTJCRT"
-                android:layout_below="@id/SPTIntro"
+                android:id="@+id/PCTJCRT"
+                android:layout_below="@id/PCTIntro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:background="@color/hijau"
-                android:text="Characteristic"
+                android:text="Characteristics"
                 android:gravity="center"
                 android:textSize="32sp" />
 
             <TextView
-                android:id="@+id/SPTCRT1"
-                android:layout_below="@id/SPTJCRT"
+                android:id="@+id/PCTCRT1"
+                android:layout_below="@id/PCTJCRT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:background="@color/white"
                 android:layout_marginTop="30dp"
-                android:text="@string/SPTcrt"
+                android:text="@string/PCTcrt"
                 android:textSize="15sp"
                 android:padding="16dp"/>
 
             <TextView
-                android:id="@+id/SPTJforms"
-                android:layout_below="@id/SPTCRT1"
+                android:id="@+id/PCTJforms"
+                android:layout_below="@id/PCTCRT1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
@@ -105,12 +105,12 @@
                 android:textSize="32sp" />
 
             <TextView
-                android:id="@+id/SPTforms"
+                android:id="@+id/PCTforms"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:layout_below="@id/SPTJforms"
-                android:text="@string/SPTforms"
+                android:layout_below="@id/PCTJforms"
+                android:text="@string/PCTforms"
                 android:layout_marginTop="20dp"
                 android:textSize="15sp"
                 android:padding="16dp"/>
@@ -120,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:layout_below="@id/SPTforms"
+                android:layout_below="@id/PCTforms"
                 android:text="@string/Devs"
                 android:gravity="center"
                 android:background="@color/hijau"
@@ -129,6 +129,6 @@
                 android:padding="16dp"/>
 
 
-</RelativeLayout>
+        </RelativeLayout>
     </androidx.core.widget.NestedScrollView>
 </RelativeLayout>
