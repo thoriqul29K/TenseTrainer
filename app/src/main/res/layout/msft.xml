@@ -50,7 +50,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/SPRTJIntro"
+                android:id="@+id/SFTJIntro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
@@ -60,19 +60,19 @@
                 android:textSize="40sp" />
 
             <TextView
-                android:id="@+id/SPRTIntro"
+                android:id="@+id/SFTIntro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:layout_below="@id/SPRTJIntro"
-                android:text="The simple present tense is used to talk about general truths, habitual actions, and permanent situations. It is one of the basic tenses in English grammar. We use the simple present tense when the action is happening regularly, is a general truth, or when describing routines and schedules."
+                android:layout_below="@id/SFTJIntro"
+                android:text="The simple future tense is used to talk about actions or events that will happen after the present moment. It is often used to discuss plans, predictions, intentions, or future facts. In English, the simple future tense is typically formed using the auxiliary verb 'will' or 'shall' followed by the base form of the main verb."
                 android:layout_marginTop="20dp"
                 android:textSize="15sp"
                 android:padding="16dp"/>
 
             <TextView
-                android:id="@+id/SPRTJCRT"
-                android:layout_below="@id/SPRTIntro"
+                android:id="@+id/SFTJCRT"
+                android:layout_below="@id/SFTIntro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
@@ -82,20 +82,20 @@
                 android:textSize="40sp" />
 
             <TextView
-                android:id="@+id/SPRTCRT1"
-                android:layout_below="@id/SPRTJCRT"
+                android:id="@+id/SFTCRT1"
+                android:layout_below="@id/SFTJCRT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:background="@color/white"
                 android:layout_marginTop="30dp"
-                android:text="@string/SPRTcrt"
+                android:text="@string/SFTcrt"
                 android:textSize="15sp"
                 android:padding="16dp"/>
 
             <TextView
-                android:id="@+id/SPRTJforms"
-                android:layout_below="@id/SPRTCRT1"
+                android:id="@+id/SFTJforms"
+                android:layout_below="@id/SFTCRT1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
@@ -105,12 +105,12 @@
                 android:textSize="40sp" />
 
             <TextView
-                android:id="@+id/SPRTforms"
+                android:id="@+id/SFTforms"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:layout_below="@id/SPRTJforms"
-                android:text="@string/SPRTforms"
+                android:layout_below="@id/SFTJforms"
+                android:text="@string/SFTforms"
                 android:layout_marginTop="20dp"
                 android:textSize="15sp"
                 android:padding="16dp"/>
@@ -120,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:layout_below="@id/SPRTforms"
+                android:layout_below="@id/SFTforms"
                 android:text="@string/Devs"
                 android:gravity="center"
                 android:background="@color/hijau"
