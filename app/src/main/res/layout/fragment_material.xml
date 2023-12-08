@@ -3,6 +3,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MaterialFragment"
     android:padding="16dp">
 
     <Button
