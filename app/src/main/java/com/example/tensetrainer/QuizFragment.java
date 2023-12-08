@@ -41,7 +41,7 @@ public class QuizFragment extends Fragment {
         btnSimpleFuture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String formUrl = "https://chat.openai.com";
+                String formUrl = "https://forms.gle/Mw6h6rZK7NmDMNfRA";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(formUrl));
                 startActivity(intent);
             }
@@ -50,7 +50,17 @@ public class QuizFragment extends Fragment {
         btnSimplePresent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String formUrl = "https://poe.com";
+                String formUrl = "https://forms.gle/8rTUhuz4hDnkjiPW9";
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(formUrl));
+                startActivity(intent);
+            }
+
+        });
+
+        btnPastContinuous.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String formUrl = "https://forms.gle/cY2kAmpYHgehYdai6";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(formUrl));
                 startActivity(intent);
             }
