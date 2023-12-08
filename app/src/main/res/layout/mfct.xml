@@ -1,0 +1,134 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header Section -->
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="wrap_content">
+
+        <!-- Back Button -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:background="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/ic_backbt" />
+
+        <!-- Header Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/backButton"
+            android:text="Future Continuous Tense"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerLayout"
+        android:background="@color/white"
+        android:layout_marginTop="1dp">
+
+        <!-- Your existing content goes here -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/FCTJIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hijau"
+                android:text="Introduction"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/FCTIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_below="@id/FCTJIntro"
+                android:text="The future continuous tense is used to describe ongoing actions or events that will happen in the future. It emphasizes the duration or the continuity of an action that will be in progress at a specific time in the future. This tense is formed using the auxiliary verb 'will' + 'be' + the present participle form of the main verb (-ing form)."
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/FCTJCRT"
+                android:layout_below="@id/FCTIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@color/hijau"
+                android:text="Characteristics"
+                android:gravity="center"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/FCTCRT1"
+                android:layout_below="@id/FCTJCRT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginTop="30dp"
+                android:text="@string/FCTcrt"
+                android:textSize="15sp"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/FCTJforms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/FCTCRT1"
+                android:background="@color/hijau"
+                android:gravity="center"
+                android:text="Forms"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/FCTforms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_below="@id/FCTJforms"
+                android:text="@string/FCTforms"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/Devs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_below="@id/FCTforms"
+                android:text="@string/Devs"
+                android:gravity="center"
+                android:background="@color/hijau"
+                android:layout_marginTop="20dp"
+                android:textSize="10sp"
+                android:padding="16dp"/>
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

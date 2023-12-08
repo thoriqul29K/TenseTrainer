@@ -205,5 +205,43 @@ Formula = <font color="#FF5722">Am/Is/Are</font> + <font color="#FF0000">subject
 <font color="#FF5722">Are</font> <font color="#FF0000">you</font> <font color="#673AB7">watching</font> <font color="#4CAF50">TV?</font>\n
 <font color="#FF5722">Is</font> <font color="#FF0000">she</font> <font color="#673AB7">coming</font> to <font color="#4CAF50">the party?</font>\n\n\n</string>
 
+<!--Tense masa depan berkelanjutan-->
+
+    <string name="FCTcrt">1. <b>Actions or events in the future</b>\n\n
+The future continuous tense is used to talk about actions or events that will occur in the future. It suggests that the action will be ongoing or in progress at a specific time in the future.\n\n
+
+2. <b>Continuity or duration</b>\n\n
+The future continuous tense emphasizes the continuity or duration of an action. It indicates that the action will be happening over a period of time rather than being a momentary or completed action. It implies that the action will be ongoing before, during, and possibly after a specific time in the future.\n\n
+
+3. <b>Time expressions</b>\n\n
+Time expressions are often used with the future continuous tense to indicate the specific time frame in the future when the action will be happening. Common time expressions used with the future continuous tense include \u0027at,\u0027 \u0027by,\u0027 \u0027from...to,\u0027 or \u0027between...and.\u0027 These time expressions provide clarity and context about when the action will take place.\n\n</string>
+
+    <string name="FCTforms">Positive form (+):\n\n
+The positive form of the future continuous tense is used to <b>make affirmative statements about ongoing actions or events that will happen in the future</b>. It indicates that something will be happening at a specific time in the future.\n\n\n
+
+Formula = <font color="#FF0000">Subject</font> + <font color="#666666">will</font> + <font color="#964B00">be</font> + <font color="#673AB7">verb-ing</font>\n\n\n
+
+Examples:\n\n
+
+<font color="#FF0000">I</font> <font color="#666666">will</font> <font color="#964B00">be</font> <font color="#673AB7">studying</font> for my exams tomorrow.\n
+<font color="#FF0000">They</font> <font color="#666666">will</font> <font color="#964B00">be</font> <font color="#673AB7">playing</font> tennis at 4 p.m. this Saturday.\n\n\n
+
+Negative form (-):\n\n
+The negative form of the future continuous tense is used to <b>express the negation or denial of ongoing actions or events that will happen in the future</b>. It indicates that something will not be happening at a specific time in the future.\n\n\n
+
+Formula = <font color="#FF0000">Subject</font> + <font color="#666666">will</font> <font color="#FFEB3B">not</font> (<font color="#666666">wo</font><font color="#FFEB3B">n\u0027t</font>) + <font color="#964B00">be</font> + <font color="#673AB7">verb-ing</font>\n\n\n
+
+    Examples:\n\n
+    <font color="#FF0000">She</font> <font color="#666666">will</font> <font color="#FFEB3B">not</font> <font color="#964B00">be</font> <font color="#673AB7">attending</font> the meeting next week.\n
+    <font color="#FF0000">We</font> <font color="#666666">wo</font><font color="#FFEB3B">n\u0027t</font> <font color="#964B00">be</font> <font color="#673AB7">going</font> on vacation in December.\n\n\n
+
+    Interrogative form (?):\n\n
+    The interrogative form of the future continuous tense is used to <b>ask questions about ongoing actions or events that will happen in the future</b>. It seeks information or confirmation about something that will be happening at a specific time in the future.\n\n\n
+
+    Formula = <font color="#666666">Will</font> + <font color="#FF0000">subject</font> + <font color="#964B00">be</font> + <font color="#673AB7">verb-ing?</font>\n\n\n
+
+    Examples:\n\n
+    <font color="#666666">Will</font> <font color="#FF0000">you</font> <font color="#964B00">be</font> <font color="#673AB7">working</font> late tonight?\n
+    <font color="#666666">Will</font> <font color="#FF0000">they</font> <font color="#964B00">be</font> <font color="#673AB7">traveling</font> to Europe next month?\n\n</string>
 
 </resources>
