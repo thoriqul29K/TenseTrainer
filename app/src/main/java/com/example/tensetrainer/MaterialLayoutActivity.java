@@ -19,7 +19,6 @@ public class MaterialLayoutActivity extends AppCompatActivity {
 
             // Find the back button by its ID
             ImageButton backButton = findViewById(R.id.backButton);
-
             // Set an OnClickListener to handle the button click
             backButton.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -27,6 +26,7 @@ public class MaterialLayoutActivity extends AppCompatActivity {
                     // Handle the back button click, e.g., go back to the previous screen or finish the activity
                     onBackPressed();
                 }
+
             });
         } else {
             // Handle the case where the layout resource ID is not valid

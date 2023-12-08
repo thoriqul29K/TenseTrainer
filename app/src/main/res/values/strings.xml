@@ -167,5 +167,43 @@ Example sentences:\n\n
 <font color="#964B00">Was</font> <font color="#FF0000">she</font> <font color="#673AB7">watching</font> TV when the phone rang?\n
 <font color="#964B00">Were</font> <font color="#FF0000">they</font> <font color="#673AB7">studying</font> for the exam last night?\n\n</string>
 
+<!--Prezen kentinues tens-->
+    <string name="PRCTcrt">1. <b>Temporary actions or situations:</b>\n\n
+The present continuous tense is often used to describe actions or situations that are temporary or not permanent. It emphasizes that the action or situation is happening now or around the present moment, but it may not continue indefinitely.\n\n
+
+2. <b>Actions in progress:</b>\n\n
+The present continuous tense is used to describe actions that are in progress at the time of speaking. It indicates that the action is happening right now, even if it\u0027s not happening at the exact moment of speaking.\n\n
+
+3. <b>Future arrangements:</b>\n\n
+The present continuous tense can also be used to talk about future arrangements or plans that have been made. It implies that the action is already confirmed or scheduled to happen in the future.\n\n
+
+4. <b>Emphasis on the action:</b>\n\n
+The present continuous tense places emphasis on the ongoing action itself rather than the result or completion of the action. It draws attention to the action happening in real-time.\n\n</string>
+
+    <string name="PRCTforms">Positive Form (+):\n\n
+        The positive form of the present continuous tense is used to <b>make affirmative statements about actions or situations that are happening at the time of speaking or around the present moment</b>. It is used to convey information about ongoing activities or temporary states.\n\n\n
+Formula = <font color="#FF0000">Subject</font> + <font color="#FF5722">am/is/are</font> + <font color="#673AB7">verb-ing</font> + <font color="#4CAF50">object</font>\n\n\n
+
+Examples:\n\n
+<font color="#FF0000">I</font> <font color="#FF5722">am</font> <font color="#673AB7">studying</font> for <font color="#4CAF50">my exam</font>.\n
+<font color="#FF0000">She</font> <font color="#FF5722">is</font> <font color="#673AB7">playing</font> <font color="#4CAF50">the piano</font>.\n\n\n
+
+Negative Form (-):\n\n
+The negative form of the present continuous tense is used to <b>make negative statements or express the absence of an action or situation in progress</b>. It is used to convey that a particular action is not happening at the time of speaking or around the present moment.\n\n\n
+
+Formula = <font color="#FF0000">Subject</font> + <font color="#FF5722">am/is/are</font> + <font color="#FFEB3B">not</font> + <font color="#673AB7">verb-ing</font> + <font color="#4CAF50">object</font>\n\n\n
+
+Examples:\n\n
+<font color="#FF0000">They</font> <font color="#FF5722">are</font> <font color="#FFEB3B">not</font> <font color="#673AB7">working</font> on <font color="#4CAF50">the project</font>.\n
+<font color="#FF0000">He</font> <font color="#FF5722">is</font> <font color="#FFEB3B">not</font> <font color="#673AB7">eating</font> <font color="#4CAF50">breakfast</font>.\n\n\n
+
+Interrogative Form (?):\n\n
+The interrogative form of the present continuous tense is used to <b>ask questions about ongoing actions or situations</b>. It is used to seek information or clarification about what is happening at the time of speaking or around the present moment.\n\n\n
+
+Formula = <font color="#FF5722">Am/Is/Are</font> + <font color="#FF0000">subject</font> + <font color="#673AB7">verb-ing</font> + <font color="#4CAF50">object?</font>\n\n\n
+    Examples:\n\n
+<font color="#FF5722">Are</font> <font color="#FF0000">you</font> <font color="#673AB7">watching</font> <font color="#4CAF50">TV?</font>\n
+<font color="#FF5722">Is</font> <font color="#FF0000">she</font> <font color="#673AB7">coming</font> to <font color="#4CAF50">the party?</font>\n\n\n</string>
+
 
 </resources>
