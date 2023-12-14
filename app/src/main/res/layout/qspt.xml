@@ -1,0 +1,211 @@
+<!-- qspt.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <!-- Header Section -->
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="wrap_content">
+
+        <!-- Back Button -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:background="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_backbt" />
+
+        <!-- Header Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/backButton"
+            android:text="Simple Past Tense"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout"
+        android:background="@color/white"
+        android:layout_marginTop="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Question 1 -->
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Which sentence uses the simple past tense correctly?"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 1 -->
+                <RadioButton
+                    android:id="@+id/answer1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a) I am watching a movie yesterday."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b) She walks to school this morning."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c) They played soccer in the park yesterday."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="d) He does his homework last night."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Question 2 -->
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2. What is the correct negative form of the sentence 'She studied for the exam' in the simple past tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 2 -->
+                <RadioButton
+                    android:id="@+id/answer2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a) She didn't study for the exam."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b) She doesn't study for the exam."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c) She not studied for the exam."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="d) She wasn't studying for the exam."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Repeat the above pattern for Questions 3 to 9 -->
+
+            <!-- Question 10 -->
+            <TextView
+                android:id="@+id/question10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. Which sentence correctly uses the simple past tense to describe a past fact?"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <!-- RadioButtons for Question 10 -->
+                <RadioButton
+                    android:id="@+id/answer10a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a) Mozart is composing many symphonies."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="b) We are going to the concert tomorrow."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c) They saw a shooting star last night."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="d) She has been reading a book all week."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Finish Button -->
+            <Button
+                android:id="@+id/finishButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finish"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

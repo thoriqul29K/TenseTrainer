@@ -1,85 +1,57 @@
 package com.example.tensetrainer;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-
 public class QuizFragment extends Fragment {
 
-    // ... (other code)
+    public QuizFragment() {
+        // Required empty public constructor
+    }
 
-    @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_quiz, container, false);
 
+        // Find buttons by their IDs
         Button btnSimplePast = view.findViewById(R.id.btnSimplePast);
         Button btnSimplePresent = view.findViewById(R.id.btnSimplePresent);
         Button btnSimpleFuture = view.findViewById(R.id.btnSimpleFuture);
         Button btnPastContinuous = view.findViewById(R.id.btnPastContinuous);
         Button btnPresentContinuous = view.findViewById(R.id.btnPresentContinuous);
+        Button btnFutureContinuous = view.findViewById(R.id.btnFutureContinuous);
 
-        // Set click listener for btnSimplePast
-       btnSimplePast.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Open the Google Form URL in a browser
-                String formUrl = "https://docs.google.com/forms/d/e/1FAIpQLScRq7D-fT2BZzAhRJ0mWlIMqhxtu59tOHxILR0PVPZH0JJOaA/viewform";
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(formUrl));
-                startActivity(intent);
-            }
-
-        });
-        btnSimpleFuture.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String formUrl = "https://forms.gle/Mw6h6rZK7NmDMNfRA";
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(formUrl));
-                startActivity(intent);
-            }
-
-        });
-        btnSimplePresent.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String formUrl = "https://forms.gle/8rTUhuz4hDnkjiPW9";
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(formUrl));
-                startActivity(intent);
-            }
-
-        });
-
-        btnPastContinuous.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String formUrl = "https://forms.gle/cY2kAmpYHgehYdai6";
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(formUrl));
-                startActivity(intent);
-            }
-
-        });
-        btnPresentContinuous.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String formUrl = "https://wa.me/6285832560838?text=Waduh%20ada%20si%20ireng%20cuy.%20";
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(formUrl));
-                startActivity(intent);
-            }
-
-        });
-
-
-
-        // ... (set click listeners for other buttons if needed)
+        // Set click listeners for each button
+        btnSimplePast.setOnClickListener(v -> navigateToQuizLayout("qspt"));
+        btnSimplePresent.setOnClickListener(v -> navigateToQuizLayout("qsprt"));
+        btnSimpleFuture.setOnClickListener(v -> navigateToQuizLayout("qsft"));
+        btnPastContinuous.setOnClickListener(v -> navigateToQuizLayout("qpct"));
+        btnPresentContinuous.setOnClickListener(v -> navigateToQuizLayout("qprct"));
+        btnFutureContinuous.setOnClickListener(v -> navigateToQuizLayout("qfct"));
 
         return view;
+    }
+
+    private void navigateToQuizLayout(String tense) {
+        // Construct the layout resource ID based on the tense name
+        int layoutResourceId = getResources().getIdentifier(tense, "layout", getActivity().getPackageName());
+
+        // Check if the layout resource exists
+        if (layoutResourceId != 0) {
+            // Create an intent to start a new activity with the selected tense's layout
+            Intent intent = new Intent(getActivity(), QuizLayoutActivity.class);
+            intent.putExtra("layoutResourceId", layoutResourceId);
+            startActivity(intent);
+        } else {
+            // Handle the case where the layout resource doesn't exist
+            // You can show a toast or log a message
+        }
     }
 }
