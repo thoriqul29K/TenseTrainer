@@ -329,7 +329,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="6. Which sentence uses the simple past tense correctly?"
+                android:text="7. What is the correct negative form of the sentence 'I finished my homework' in the simple past tense?"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -342,28 +342,116 @@
                     android:id="@+id/answer7a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) They have arrived home just now."
+                    android:text="a) I didn't finish my homework."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer7b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) He plays soccer yesterday."
+                    android:text="b) I don't finish my homework."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer7c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) We will eat dinner in an hour."
+                    android:text="c) I not finished my homework."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer7d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) She danced at the party last night."
+                    android:text="d) I wasn't finishing my homework."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 8-->
+            <TextView
+                android:id="@+id/question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="8. Which sentence uses the simple past tense to describe a sequence of events in the past?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer8a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) He writes a letter yesterday."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) They were swimming in the pool."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) First, I woke up. Then, I had breakfast."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) She will go shopping later."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 9-->
+            <TextView
+                android:id="@+id/question9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="9. What is the interrogative form of the sentence 'He visited his grandparents last week' in the simple past tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer9a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Did he visit his grandparents last week?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) He did visit his grandparents last week?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Did he visited his grandparents last week?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) He did visited his grandparents last week?"
                     android:textColor="@color/black" />
             </RadioGroup>
 

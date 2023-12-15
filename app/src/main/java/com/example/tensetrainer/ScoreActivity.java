@@ -17,12 +17,12 @@ public class ScoreActivity extends AppCompatActivity {
 
         // Update UI elements based on the score
         TextView tvScore = findViewById(R.id.tvScore);
-        tvScore.setText("Your Score: " + userScore + "/10");
+        tvScore.setText(userScore + "/10 questions answered correctly");
 
         // Calculate and display alphabetical score
         TextView tvAlphabeticalScore = findViewById(R.id.user2ndscore);
         String alphabeticalScore = calculateAlphabeticalScore(userScore);
-        tvAlphabeticalScore.setText("Alphabetical Score: " + alphabeticalScore);
+        tvAlphabeticalScore.setText(alphabeticalScore);
     }
 
     private String calculateAlphabeticalScore(int userScore) {
