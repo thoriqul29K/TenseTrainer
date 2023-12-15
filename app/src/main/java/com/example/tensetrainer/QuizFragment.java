@@ -21,37 +21,19 @@ public class QuizFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_quiz, container, false);
 
         // Find buttons by their IDs
-        Button btnSimplePast = view.findViewById(R.id.btnSimplePast);
-        Button btnSimplePresent = view.findViewById(R.id.btnSimplePresent);
-        Button btnSimpleFuture = view.findViewById(R.id.btnSimpleFuture);
-        Button btnPastContinuous = view.findViewById(R.id.btnPastContinuous);
-        Button btnPresentContinuous = view.findViewById(R.id.btnPresentContinuous);
-        Button btnFutureContinuous = view.findViewById(R.id.btnFutureContinuous);
+        Button btnSimplePastQuiz = view.findViewById(R.id.btnSimplePastQuiz);
+        // Add similar lines for other quiz buttons
 
-        // Set click listeners for each button
-        btnSimplePast.setOnClickListener(v -> navigateToQuizLayout("qspt"));
-        btnSimplePresent.setOnClickListener(v -> navigateToQuizLayout("qsprt"));
-        btnSimpleFuture.setOnClickListener(v -> navigateToQuizLayout("qsft"));
-        btnPastContinuous.setOnClickListener(v -> navigateToQuizLayout("qpct"));
-        btnPresentContinuous.setOnClickListener(v -> navigateToQuizLayout("qprct"));
-        btnFutureContinuous.setOnClickListener(v -> navigateToQuizLayout("qfct"));
+        // Set click listeners for each quiz button
+        btnSimplePastQuiz.setOnClickListener(v -> navigateToSimplePastTenseQuiz());
+        // Add similar lines for other quiz buttons
 
         return view;
     }
 
-    private void navigateToQuizLayout(String tense) {
-        // Construct the layout resource ID based on the tense name
-        int layoutResourceId = getResources().getIdentifier(tense, "layout", getActivity().getPackageName());
-
-        // Check if the layout resource exists
-        if (layoutResourceId != 0) {
-            // Create an intent to start a new activity with the selected tense's layout
-            Intent intent = new Intent(getActivity(), QuizLayoutActivity.class);
-            intent.putExtra("layoutResourceId", layoutResourceId);
-            startActivity(intent);
-        } else {
-            // Handle the case where the layout resource doesn't exist
-            // You can show a toast or log a message
-        }
+    private void navigateToSimplePastTenseQuiz() {
+        Intent intent = new Intent(getActivity(), SimplePastTenseQuizActivity.class);
+        startActivity(intent);
     }
+    // Add similar methods for other quiz activities
 }
