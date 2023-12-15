@@ -147,6 +147,96 @@
 
             <!-- Repeat the above pattern for Questions 3 to 9 -->
 
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3. Which sentence uses the simple past tense to describe a past habit or state?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 3 -->
+                <RadioButton
+                    android:id="@+id/answer3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a) I eat breakfast every morning."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" b) She used to live in Paris."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c) They go to the gym yesterday."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="d) He will visit his grandparents next week."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4. What is the interrogative form of the sentence 'They finished their work on time' in the simple past tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 4 -->
+                <RadioButton
+                    android:id="@+id/answer4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  a) Did they finish their work on time?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" b) She used to live in Paris."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c) They go to the gym yesterday."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="d) He will visit his grandparents next week."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+
+
             <!-- Question 10 -->
             <TextView
                 android:id="@+id/question10"
@@ -155,8 +245,6 @@
                 android:text="10. Which sentence correctly uses the simple past tense to describe a past fact?"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
                 android:textColor="@color/black" />
 
             <RadioGroup
