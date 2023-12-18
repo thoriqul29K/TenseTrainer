@@ -1,0 +1,519 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SimplePresentTenseQuizActivity">
+
+    <!-- Header Section -->
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="wrap_content">
+
+        <!-- Back Button -->
+        <ImageButton
+            android:contentDescription="back to main menu"
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:background="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_backbt" />
+
+        <!-- Header Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/backButton"
+            android:text="Simple Present Tense"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout"
+        android:background="@color/white"
+        android:layout_marginTop="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Question 1 -->
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Which of the following best describes the simple present tense?"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 1 -->
+                <RadioButton
+                    android:id="@+id/answer1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Used for actions that happened in the past."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Used for actions happening regularly or repeatedly."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Used for future events."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Used for expressing uncertainty."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Question 2 -->
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2. What type of information is typically expressed using the simple present tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 2 -->
+                <RadioButton
+                    android:id="@+id/answer2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Actions that happened once in the past."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Temporary situations."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) General truths and facts."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Actions that will happen in the future."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3. Which form of the verb is used in the positive form of the simple present tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 3 -->
+                <RadioButton
+                    android:id="@+id/answer3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Verb 1 (Base form)."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Verb 2 (Past form)."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Present participle"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Verb 3 (Past Participle)."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 4-->
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4. Which of the following is the correct negative form of the sentence 'She likes ice cream'?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) She not likes ice cream."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) She doesn't like ice cream."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) She don't like ice cream."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) She isn't like ice cream."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 5-->
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="5. How is the interrogative form of the simple present tense formed?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer5a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Auxiliary verb (do/does) + Subject + Verb."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer5b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Subject + Auxiliary verb (do/does) + Verb + Object."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer5c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Verb + Subject + Object."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer5d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Object + Verb + Subject"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 6-->
+            <TextView
+                android:id="@+id/question6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="6. Which of the following is a characteristic of the simple present tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer6a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Used for describing actions in the past."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer6b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Used for expressing future possibilities."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer6c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Used for indicating ongoing actions at the moment."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer6d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Used for talking about general truths and routines."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 7-->
+            <TextView
+                android:id="@+id/question7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="7. Which sentence is an example of the simple present tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) I will go to the party tomorrow."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) She has been studying for three hours."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer7c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) They are playing soccer in the park."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer7d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) The sun rises in the east."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 8-->
+            <TextView
+                android:id="@+id/question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="8. Which of the following is the correct negative form of the sentence 'We eat pizza for dinner'?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer8a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) We do not eat pizza for dinner."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) We don't eating pizza for dinner."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) We not eat pizza for dinner."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) We aren't eat pizza for dinner."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 9-->
+            <TextView
+                android:id="@+id/question9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="9. What type of actions does the simple present tense describe?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer9a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Actions that happened in the past."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Actions that will happen in the future."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Actions that occur regularly or repeatedly."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Actions that are happening right now."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Question 10 -->
+            <TextView
+                android:id="@+id/question10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. How is the interrogative form of the simple present tense different from the positive form?"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <!-- RadioButtons for Question 10 -->
+                <RadioButton
+                    android:id="@+id/answer10a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) The subject and verb are reversed."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) The verb is replaced with an auxiliary verb."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) The verb is in the past participle form."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) The sentence structure remains the same, only the intonation changes."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Finish Button -->
+            <Button
+                android:id="@+id/finishButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finish"
+                android:background="@drawable/tombol_roundedcorner"
+                android:backgroundTint="@color/hijau"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
