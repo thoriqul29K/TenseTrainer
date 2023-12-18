@@ -5,7 +5,7 @@
 
     <item
         android:id="@+id/nav_material"
-        android:title="The Material"
+        android:title="Material"
         android:icon="@drawable/ic_material"/>
 
     <item

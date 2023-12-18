@@ -15,6 +15,16 @@ public class ScoreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
 
+        Button mainmenubutton = findViewById(R.id.mainmenubutton);
+
+        mainmenubutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ScoreActivity.this, MainMenuActivity.class);
+                startActivity(intent);
+            }
+        });
+
         // Retrieve user's score from the intent
         int userScore = getIntent().getIntExtra("userScore", 0);
 

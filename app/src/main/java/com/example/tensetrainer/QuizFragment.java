@@ -23,11 +23,16 @@ public class QuizFragment extends Fragment {
         // Find buttons by their IDs
         Button btnSimplePastQuiz = view.findViewById(R.id.btnSimplePastQuiz);
         Button btnSimplePresentQuiz = view.findViewById(R.id.btnSimplePresentQuiz);
+        Button btnSimpleFutureQuiz = view.findViewById(R.id.btnSimpleFutureQuiz);
+        Button btnPastContinuousQuiz = view.findViewById(R.id.btnPastContinuousQuiz);
+        Button btnPresentContinuousQuiz = view.findViewById(R.id.btnPresentContinuousQuiz);
+        Button btnFutureContinuousQuiz = view.findViewById(R.id.btnFutureContinuousQuiz);
         // Add similar lines for other quiz buttons
 
         // Set click listeners for each quiz button
         btnSimplePastQuiz.setOnClickListener(v -> navigateToSimplePastTenseQuiz());
         btnSimplePresentQuiz.setOnClickListener(v -> navigateToSimplePresentTenseQuiz());
+        btnSimpleFutureQuiz.setOnClickListener(v -> navigateToSimpleFutureTenseQuiz());
         // Add similar lines for other quiz buttons
 
         return view;
@@ -40,6 +45,10 @@ public class QuizFragment extends Fragment {
     // Add similar methods for other quiz activities
     private void navigateToSimplePresentTenseQuiz() {
         Intent intent = new Intent(getActivity(), SimplePresentTenseQuizActivity.class);
+        startActivity(intent);
+    }
+    private void navigateToSimpleFutureTenseQuiz() {
+        Intent intent = new Intent(getActivity(), SimpleFutureTenseQuizActivity.class);
         startActivity(intent);
     }
 }
