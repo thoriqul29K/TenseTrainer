@@ -33,6 +33,8 @@ public class QuizFragment extends Fragment {
         btnSimplePastQuiz.setOnClickListener(v -> navigateToSimplePastTenseQuiz());
         btnSimplePresentQuiz.setOnClickListener(v -> navigateToSimplePresentTenseQuiz());
         btnSimpleFutureQuiz.setOnClickListener(v -> navigateToSimpleFutureTenseQuiz());
+        btnPastContinuousQuiz.setOnClickListener(v -> navigateToPastContinuousTenseQuiz());
+        btnPresentContinuousQuiz.setOnClickListener(v -> navigateToPresentContinuousTenseQuiz());
         // Add similar lines for other quiz buttons
 
         return view;
@@ -49,6 +51,14 @@ public class QuizFragment extends Fragment {
     }
     private void navigateToSimpleFutureTenseQuiz() {
         Intent intent = new Intent(getActivity(), SimpleFutureTenseQuizActivity.class);
+        startActivity(intent);
+    }
+    private void navigateToPastContinuousTenseQuiz() {
+        Intent intent = new Intent(getActivity(), PastContinuousTenseQuizActivity.class);
+        startActivity(intent);
+    }
+    private void navigateToPresentContinuousTenseQuiz() {
+        Intent intent = new Intent(getActivity(), PresentContinuousTenseQuizActivity.class);
         startActivity(intent);
     }
 }

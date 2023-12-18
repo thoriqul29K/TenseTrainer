@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".SimpleFutureTenseQuizActivity">
+    tools:context=".PastContinuousTenseQuizActivity">
 
     <!-- Header Section -->
     <RelativeLayout
@@ -35,7 +35,7 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="10dp"
             android:layout_toEndOf="@+id/backButton"
-            android:text="Simple Future Tense"
+            android:text="Past Continuous Tense"
             android:textColor="@color/white"
             android:textSize="24sp" />
 
@@ -60,7 +60,7 @@
                 android:id="@+id/question1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Which sentence is in the simple future tense?"
+                android:text="1. Choose the correct sentence in the past continuous tense:"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/black" />
@@ -75,28 +75,28 @@
                     android:id="@+id/answer1a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) She is going to the party tonight."
+                    android:text="a) He played soccer yesterday."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer1b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) They went to the beach last week."
+                    android:text="b) They were playing soccer yesterday."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer1c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) He is driving to work every day."
+                    android:text="c) She is playing soccer yesterday."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer1d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) We will visit our grandparents next month."
+                    android:text="d) I will play soccer yesterday."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -107,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="2. How is the negative form of the simple future tense formed?"
+                android:text="2. Which sentence uses the negative form of the past continuous tense?"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -121,28 +121,28 @@
                     android:id="@+id/answer2a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) Subject + will/shall + verb 1."
+                    android:text="a) We were singing in the choir."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer2b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) Subject + will/shall + not + verb 1."
+                    android:text="b) He was reading a book."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer2c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) Will/Shall + subject + verb 1."
+                    android:text="c) They weren't studying for the test."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer2d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) Subject + verb-ing."
+                    android:text="d) She is dancing at the party."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -152,7 +152,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="3. Which of the following is a common use of the simple future tense?"
+                android:text="3. which sentence uses the interrogative form of the past continuous tense:"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -166,28 +166,28 @@
                     android:id="@+id/answer3a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) Talking about past events."
+                    android:text="a) She was cooking dinner last night."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer3b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) Expressing ongoing actions in the present."
+                    android:text="b) Were they watching a movie at the theater?"
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer3c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) Describing actions happening at the moment"
+                    android:text="c) I was running in the park."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer3d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) Making predictions about the future."
+                    android:text="d) He wasn't playing the guitar."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -197,7 +197,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="4. What verb is used in the simple future tense?"
+                android:text="4. Which sentence correctly uses the past continuous tense with the subject 'I'?"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -210,28 +210,28 @@
                     android:id="@+id/answer4a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) Verb 3."
+                    android:text="a) They were playing basketball."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer4b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) Verb 2."
+                    android:text="b) I were cooking dinner."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer4c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) Verb 1."
+                    android:text="c) I was writing a letter."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer4d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) The present tense form of the verb."
+                    android:text="d) We was swimming in the pool."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -241,7 +241,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="5. How is the interrogative form of the simple future tense formed?"
+                android:text="5. Choose the correct sentence that indicates an ongoing action in the past:"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -254,28 +254,28 @@
                     android:id="@+id/answer5a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) Subject + will/shall + verb 1."
+                    android:text="a) He played the guitar."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer5b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) Subject + will/shall + not + verb 1."
+                    android:text="b) We were playing soccer."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer5c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) Will/Shall + subject + verb 1."
+                    android:text="c) They will go to the concert."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer5d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) Subject + verb 3."
+                    android:text="d) She is writing a letter."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -285,7 +285,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="6. Which sentence is in the simple future tense?"
+                android:text="6. Which sentence correctly uses the past continuous tense with the subject 'she'?"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -298,28 +298,28 @@
                     android:id="@+id/answer6a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) She has been studying all night."
+                    android:text="a) She was singing a song."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer6b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) They are eating dinner right now."
+                    android:text="b) They was playing tennis."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer6c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) I will buy a new car next week."
+                    android:text="c) She were studying for the exam."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer6d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) We have visited that museum before."
+                    android:text="d) We were dancing at the party."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -329,7 +329,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="7. What is the positive form of the simple future tense?"
+                android:text="7. Choose the correct sentence that expresses an action happening at a specific time in the past:"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -342,28 +342,28 @@
                     android:id="@+id/answer7a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) Subject + will/shall + verb 1."
+                    android:text="a) They were cooking dinner days ago."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer7b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) Subject + will/shall + not + verb 1."
+                    android:text="b) We were eating breakfast this morning."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer7c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) Will/Shall + subject + verb 1."
+                    android:text="c) He was sleeping all day."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer7d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) Subject + verb 2."
+                    android:text="d) She is reading a book."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -373,7 +373,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="8. Which of the following is a common use of the simple future tense?"
+                android:text="8. Which one uses the negative form of the past continuous tense:"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -386,28 +386,28 @@
                     android:id="@+id/answer8a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) Expressing completed actions in the past."
+                    android:text="a) He was painting a picture."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer8b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) Describing ongoing actions in the present."
+                    android:text="b) They were not attending the conference."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer8c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) Making promises or commitments."
+                    android:text="c) We were playing football."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer8d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) Talking about habitual actions."
+                    android:text="d) She were singing a song."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -417,7 +417,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="9. What auxiliary verbs are used in the simple future tense?"
+                android:text="9. Which sentence correctly uses the past continuous tense in the interrogative form?"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -430,28 +430,28 @@
                     android:id="@+id/answer9a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) Have/has."
+                    android:text="a) Were they watching a movie last night?"
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer9b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) Can/could."
+                    android:text="b) She was running in the park."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer9c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) Will/shall."
+                    android:text="c) Was we studying yesterday?"
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer9d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) Do/does."
+                    android:text="d) He was not playing the piano."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -460,7 +460,7 @@
                 android:id="@+id/question10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="10. Which sentence is in the interrogative form of the simple future tense?"
+                android:text="10. Choose the sentence that best describes an ongoing action in the past:"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/black" />
@@ -478,28 +478,28 @@
                     android:id="@+id/answer10a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) She will go to the party tomorrow."
+                    android:text="a) He played the guitar."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer10b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) They went to the beach last weekend."
+                    android:text="b) They were playing soccer."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer10c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) Will you join us for dinner tonight?"
+                    android:text="c) We will eat dinner soon."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer10d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) He is playing soccer in the park."
+                    android:text="d) She is dancing at the party."
                     android:textColor="@color/black" />
             </RadioGroup>
 

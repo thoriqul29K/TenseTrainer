@@ -46,6 +46,14 @@
             android:name=".SimpleFutureTenseQuizActivity"
             android:exported="true" >
         </activity>
+        <activity
+            android:name=".PastContinuousTenseQuizActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".PresentContinuousTenseQuizActivity"
+            android:exported="true" >
+        </activity>
     </application>
 
 </manifest>
