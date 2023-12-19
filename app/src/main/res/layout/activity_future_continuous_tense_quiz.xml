@@ -1,0 +1,519 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FutureContinuousTenseQuizActivity">
+
+    <!-- Header Section -->
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="wrap_content">
+
+        <!-- Back Button -->
+        <ImageButton
+            android:contentDescription="back to main menu"
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:background="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_backbt" />
+
+        <!-- Header Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/backButton"
+            android:text="Future Continuous Tense"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout"
+        android:background="@color/white"
+        android:layout_marginTop="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Question 1 -->
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Which sentence uses the future continuous tense correctly?"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 1 -->
+                <RadioButton
+                    android:id="@+id/answer1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) He will go to the party last night."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) They will be dance at the concert tomorrow."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) We will be watching a movie tonight."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) She will cooked dinner tonight."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Question 2 -->
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2. What is the correct negative form of the future continuous tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 2 -->
+                <RadioButton
+                    android:id="@+id/answer2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) She won't be going to the beach next weekend."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) He will be not playing soccer tomorrow."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) They will not be preparing for the exam tonight."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) We won't be driving to the park yesterday."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3. Which interrogative form is correct for the future continuous tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 3 -->
+                <RadioButton
+                    android:id="@+id/answer3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Will you be cooked dinner tonight?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Will they be study for the test yesterday?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Will she be attending the conference tomorrow?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Will he be playing tennis last night?"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 4-->
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4. Which sentence uses the future continuous tense incorrectly?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) They will be singing at the concert next week."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) I will be working in the garden yesterday."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) She will be running a marathon on Sunday."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) He will be studying for the exam all night."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 5-->
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="5. What is the formula of the positive form of future continuous tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer5a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Subject + verb 2 + object"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer5b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Subject + will not + be + verb-ing"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer5c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Subject + will + be + verb-ing"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer5d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Subject + am/is/are + not + verb-ing + object"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 6-->
+            <TextView
+                android:id="@+id/question6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="6. Which sentence uses the future continuous tense correctly?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer6a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) We will be watched a movie last night."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer6b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) She will be cooks dinner tonight."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer6c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) They will be traveling to Paris next week."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer6d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) He will be played video games tomorrow."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 7-->
+            <TextView
+                android:id="@+id/question7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="7. What is the correct negative form of the future continuous tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) He won't be singing at the concert tomorrow."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) We will not be going to the party yesterday."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer7c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) They won't be playing basketball in the morning."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer7d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) She will not be studying for the exam next week."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 8-->
+            <TextView
+                android:id="@+id/question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="8. Which interrogative form is correct for the future continuous tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer8a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Will they be went to the beach last weekend?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Will you be working late tonight?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Will she be read a book yesterday?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Will he be played the guitar tomorrow?"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 9-->
+            <TextView
+                android:id="@+id/question9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="9. Which sentence uses the future continuous tense incorrectly?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer9a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) I will be taking a nap in the afternoon."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) They will be eating dinner at the restaurant tonight."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) She will be dance at the party last night."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) He will be studying for the exam tomorrow."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Question 10 -->
+            <TextView
+                android:id="@+id/question10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. Which sentence emphasizes the continuity or duration of an action in the future?"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <!-- RadioButtons for Question 10 -->
+                <RadioButton
+                    android:id="@+id/answer10a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) We will visit the museum tomorrow."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) He will be sleeping at midnight."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) They will be watching a movie at 7 p.m."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) She will finish her work in the morning."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Finish Button -->
+            <Button
+                android:id="@+id/finishButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finish"
+                android:background="@drawable/tombol_roundedcorner"
+                android:backgroundTint="@color/hijau"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
