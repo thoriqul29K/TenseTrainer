@@ -1,70 +1,105 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/white"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MaterialFragment"
-    android:padding="16dp">
+    android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btnSimplePast"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1. Simple Past Tense"
-        android:textColor="@color/black"
-        android:background="@drawable/tombol_roundedcorner"
-        android:backgroundTint="@color/hijau"
-        android:layout_marginTop="100dp"/>
+        android:orientation="vertical"
+        android:background="@color/white"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MaterialFragment"
+        android:padding="16dp">
 
-    <Button
-        android:id="@+id/btnSimplePresent"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="2. Simple Present Tense"
-        android:textColor="@color/black"
-        android:background="@drawable/tombol_roundedcorner"
-        android:backgroundTint="@color/hijau"
-        android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btnSimplePast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Simple Past Tense"
+            android:textColor="@color/black"
+            android:background="@drawable/tombol_roundedcorner"
+            android:backgroundTint="@color/hijau"
+            android:layout_marginTop="100dp"/>
 
-    <Button
-        android:id="@+id/btnSimpleFuture"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="3. Simple Future Tense"
-        android:textColor="@color/black"
-        android:background="@drawable/tombol_roundedcorner"
-        android:backgroundTint="@color/hijau"
-        android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btnSimplePresent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Simple Present Tense"
+            android:textColor="@color/black"
+            android:background="@drawable/tombol_roundedcorner"
+            android:backgroundTint="@color/hijau"
+            android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btnPastContinuous"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="4. Past Continuous Tense"
-        android:background="@drawable/tombol_roundedcorner"
-        android:backgroundTint="@color/hijau"
-        android:textColor="@color/black"
-        android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btnSimpleFuture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Simple Future Tense"
+            android:textColor="@color/black"
+            android:background="@drawable/tombol_roundedcorner"
+            android:backgroundTint="@color/hijau"
+            android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btnPresentContinuous"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="5. Present Continuous Tense"
-        android:background="@drawable/tombol_roundedcorner"
-        android:backgroundTint="@color/hijau"
-        android:textColor="@color/black"
-        android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btnPastContinuous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Past Continuous Tense"
+            android:background="@drawable/tombol_roundedcorner"
+            android:backgroundTint="@color/hijau"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btnFutureContinuous"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="6. Future Continuous Tense"
-        android:background="@drawable/tombol_roundedcorner"
-        android:backgroundTint="@color/hijau"
-        android:textColor="@color/black"
-        android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/btnPresentContinuous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Present Continuous Tense"
+            android:background="@drawable/tombol_roundedcorner"
+            android:backgroundTint="@color/hijau"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
 
-</LinearLayout>
+        <Button
+            android:id="@+id/btnFutureContinuous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Future Continuous Tense"
+            android:background="@drawable/tombol_roundedcorner"
+            android:backgroundTint="@color/hijau"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnPastPerfect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Past Perfect Tense"
+            android:background="@drawable/tombol_roundedcorner"
+            android:backgroundTint="@color/hijau"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnPresentPerfect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Present Perfect Tense"
+            android:background="@drawable/tombol_roundedcorner"
+            android:backgroundTint="@color/hijau"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnFuturePerfect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Future Perfect Tense"
+            android:background="@drawable/tombol_roundedcorner"
+            android:backgroundTint="@color/hijau"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

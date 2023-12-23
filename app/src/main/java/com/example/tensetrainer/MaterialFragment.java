@@ -27,6 +27,9 @@ public class MaterialFragment extends Fragment {
         Button btnPastContinuous = view.findViewById(R.id.btnPastContinuous);
         Button btnPresentContinuous = view.findViewById(R.id.btnPresentContinuous);
         Button btnFutureContinuous = view.findViewById(R.id.btnFutureContinuous);
+        Button btnPastPerfect = view.findViewById(R.id.btnPastPerfect);
+        Button btnPresentPerfect = view.findViewById(R.id.btnPresentPerfect);
+        Button btnFuturePerfect = view.findViewById(R.id.btnFuturePerfect);
 
         // Set click listeners for each button
         btnSimplePast.setOnClickListener(v -> navigateToTenseLayout("mspt"));
@@ -35,6 +38,9 @@ public class MaterialFragment extends Fragment {
         btnPastContinuous.setOnClickListener(v -> navigateToTenseLayout("mpct"));
         btnPresentContinuous.setOnClickListener(v -> navigateToTenseLayout("mprct"));
         btnFutureContinuous.setOnClickListener(v -> navigateToTenseLayout("mfct"));
+        btnPastPerfect.setOnClickListener(v -> navigateToTenseLayout("mppt"));
+        btnPresentPerfect.setOnClickListener(v -> navigateToTenseLayout("mpprt"));
+        btnFuturePerfect.setOnClickListener(v -> navigateToTenseLayout("mfpt"));
 
         return view;
     }
