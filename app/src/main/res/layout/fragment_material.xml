@@ -11,6 +11,15 @@
         tools:context=".MaterialFragment"
         android:padding="16dp">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lets Study!"
+            android:textColor="@color/hijau"
+            android:background="@color/white"
+            android:textSize="30sp"
+            android:textAlignment="center"/>
+
         <Button
             android:id="@+id/btnSimplePast"
             android:layout_width="match_parent"
@@ -19,7 +28,7 @@
             android:textColor="@color/black"
             android:background="@drawable/tombol_roundedcorner"
             android:backgroundTint="@color/hijau"
-            android:layout_marginTop="100dp"/>
+            android:layout_marginTop="50dp"/>
 
         <Button
             android:id="@+id/btnSimplePresent"

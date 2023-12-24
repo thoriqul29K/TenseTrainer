@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".PresentContinuousTenseQuizActivity">
+    tools:context=".PastPerfectTenseQuizActivity">
 
     <!-- Header Section -->
     <RelativeLayout
@@ -35,7 +35,7 @@
             android:layout_marginStart="25dp"
             android:layout_marginTop="10dp"
             android:layout_toEndOf="@+id/backButton"
-            android:text="Present Continuous Tense"
+            android:text="Past Perfect Tense"
             android:textColor="@color/white"
             android:textSize="24sp" />
 
@@ -60,7 +60,7 @@
                 android:id="@+id/question1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Choose the correct sentence in the present continuous tense:"
+                android:text="1. Which form of the Past Perfect tense is used to make affirmative statements?"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/black" />
@@ -75,28 +75,28 @@
                     android:id="@+id/answer1a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) She reads a book."
+                    android:text="a) Positive (+)."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer1b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) I read that book yesterday."
+                    android:text="b) Negative (-)."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer1c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) He will read a book."
+                    android:text="c) Interrogative (?)"
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer1d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) They are reading a book. "
+                    android:text="d) None of the above."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -107,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="2. Which sentence is in the negative form of the present continuous tense?"
+                android:text="2. The Past Perfect tense emphasizes the completion of an action ________ a specific point in the past."
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -121,28 +121,28 @@
                     android:id="@+id/answer2a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) We are playing soccer."
+                    android:text="a) After."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer2b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) He plays soccer."
+                    android:text="b) During."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer2c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) They are not playing soccer. "
+                    android:text="c) Before."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer2d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) She did not play soccer."
+                    android:text="d) Simultaneously with."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -152,7 +152,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="3. Which sentence is in the interrogative form of the present continuous tense:"
+                android:text="3. Which time expressions are commonly used with the Past Perfect tense?"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -166,28 +166,28 @@
                     android:id="@+id/answer3a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) Are you cooking dinner?"
+                    android:text="a) Now and then."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer3b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) She is cooking dinner.  "
+                    android:text="b) Yesterday and today."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer3c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) They did not cook our dinner."
+                    android:text="c) After and before."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer3d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) Did he cooked our dinner?"
+                    android:text="d) Tomorrow and later."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -197,7 +197,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="4. Select the sentence that uses the present continuous tense to describe a future arrangement:"
+                android:text="4.What is the auxiliary verb used in the Past Perfect tense?"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -210,28 +210,28 @@
                     android:id="@+id/answer4a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) I am going to the party tonight."
+                    android:text="a) Do."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer4b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) They are going to the party tonight."
+                    android:text="b) Be."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer4c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) We will go to the party tonight."
+                    android:text="c) Have."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer4d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) He was gone to the party last night."
+                    android:text="d) Had."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -241,7 +241,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="5. Which sentence is an example of the present continuous tense describing an action in progress?"
+                android:text="5. The Past Perfect tense is primarily used to describe an action that occurred ________ another action in the past."
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -254,28 +254,28 @@
                     android:id="@+id/answer5a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) He plays the guitar."
+                    android:text="a) Simultaneously with"
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer5b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) They are playing the guitar."
+                    android:text="b) After."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer5c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) She played the guitar."
+                    android:text="c) Before."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer5d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) We never played a guitar."
+                    android:text="d) In the future."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -285,7 +285,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="6. Which sentence correctly uses the present continuous tense?"
+                android:text="6. What is the formula of the interrogative form(?) of past perfect tense? "
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -298,28 +298,28 @@
                     android:id="@+id/answer6a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) I go to the gym every day."
+                    android:text="a) Auxiliary Verb (do/does) + subject + verb 1 + object?"
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer6b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) She went to the gym every day."
+                    android:text="b) Did + subject + verb 1?"
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer6c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) He is going to the gym every day."
+                    android:text="c) Had + subject + verb 2?"
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer6d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) They were going to the gym every day."
+                    android:text="d) Was/were + subject + verb-ing?"
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -329,7 +329,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="7. Choose the negative form of the present continuous tense:"
+                android:text="7. The Past Perfect tense is used to establish the ________ of events in the past."
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -342,28 +342,28 @@
                     android:id="@+id/answer7a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) They are playing soccer."
+                    android:text="a) Causality."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer7b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) We are not playing soccer."
+                    android:text="b) Location."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer7c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) I play soccer."
+                    android:text="c) Frequency."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer7d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) He played soccer."
+                    android:text="d) Sequence."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -373,7 +373,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="8. Identify the interrogative form of the present continuous tense:"
+                android:text="8. Which sentence is using the correct form of the negative form of the Past Perfect tense?"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -386,28 +386,28 @@
                     android:id="@+id/answer8a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) She is singing a song."
+                    android:text="a) I hadn't went to the store before it closed."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer8b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) We sang a song."
+                    android:text="b) She hadn't ate dinner when I called her."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer8c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) They sing a song."
+                    android:text="c) They hadn't seen the movie before it started."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer8d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) Is he singing a song?"
+                    android:text="d) We hadn't took the bus before it arrived."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -417,7 +417,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="9. Select the sentence that uses the present continuous tense to describe a temporary action:"
+                android:text="9. Which form of the Past Perfect tense is used to make statements that an action did not occur in the past?"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -430,28 +430,28 @@
                     android:id="@+id/answer9a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) They are running a marathon."
+                    android:text="a) Positive (+)."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer9b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) He runs every morning. "
+                    android:text="b) Negative (-)."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer9c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) She will run a marathon."
+                    android:text="c) Interrogative (?)."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer9d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) We ran a marathon."
+                    android:text="d) None of the above."
                     android:textColor="@color/black" />
             </RadioGroup>
 
@@ -460,7 +460,7 @@
                 android:id="@+id/question10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="10. Which sentence is an example of the present continuous tense describing a future arrangement?"
+                android:text="10. Which form of the Past Perfect tense is often used in reported speech?"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/black" />
@@ -478,28 +478,28 @@
                     android:id="@+id/answer10a"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="a) We are eating dinner right now."
+                    android:text="a) Positive (+)."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer10b"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="b) They are going to eat dinner tonight."
+                    android:text="b) Negative (-)."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer10c"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="c) She ate dinner an hour ago."
+                    android:text="c) Interrogative (?)."
                     android:textColor="@color/black" />
 
                 <RadioButton
                     android:id="@+id/answer10d"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
-                    android:text="d) He eats dinner at 6 p.m."
+                    android:text="d) None of the above."
                     android:textColor="@color/black" />
             </RadioGroup>
 

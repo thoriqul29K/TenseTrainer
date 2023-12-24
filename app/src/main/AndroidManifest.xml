@@ -58,6 +58,10 @@
             android:name=".FutureContinuousTenseQuizActivity"
             android:exported="true" >
         </activity>
+        <activity
+            android:name=".PastPerfectTenseQuizActivity"
+            android:exported="true" >
+        </activity>
     </application>
 
 </manifest>
