@@ -1,0 +1,134 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header Section -->
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="wrap_content">
+
+        <!-- Back Button -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:background="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/ic_backbt" />
+
+        <!-- Header Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/backButton"
+            android:text="Future Perfect Tense"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerLayout"
+        android:background="@color/white"
+        android:layout_marginTop="1dp">
+
+        <!-- Your existing content goes here -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/FPTJIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/hijau"
+                android:text="Introduction"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/FPTIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_below="@id/PRPTJIntro"
+                android:text="The Present Perfect Tense is a verb tense used to describe actions or events that began in the past but have a connection to the present. It is often used to talk about experiences, achievements, or actions that have an impact on the present moment. In English, the Present Perfect Tense is formed by using the auxiliary verb 'have' or 'has' followed by the past participle of the main verb."
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/FPTJCRT"
+                android:layout_below="@id/FPTIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@color/hijau"
+                android:text="Characteristics"
+                android:gravity="center"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/FPTCRT1"
+                android:layout_below="@id/FPTJCRT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:layout_marginTop="30dp"
+                android:text="@string/FPTcrt"
+                android:textSize="15sp"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/FPTJforms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/FPTCRT1"
+                android:background="@color/hijau"
+                android:gravity="center"
+                android:text="Forms"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/FPTforms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_below="@id/FPTJforms"
+                android:text="@string/FPTforms"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/Devs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_below="@id/FPTforms"
+                android:text="@string/Devs"
+                android:gravity="center"
+                android:background="@color/hijau"
+                android:layout_marginTop="20dp"
+                android:textSize="10sp"
+                android:padding="16dp"/>
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

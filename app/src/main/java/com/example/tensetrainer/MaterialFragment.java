@@ -39,7 +39,7 @@ public class MaterialFragment extends Fragment {
         btnPresentContinuous.setOnClickListener(v -> navigateToTenseLayout("mprct"));
         btnFutureContinuous.setOnClickListener(v -> navigateToTenseLayout("mfct"));
         btnPastPerfect.setOnClickListener(v -> navigateToTenseLayout("mppt"));
-        btnPresentPerfect.setOnClickListener(v -> navigateToTenseLayout("mpprt"));
+        btnPresentPerfect.setOnClickListener(v -> navigateToTenseLayout("mprpt"));
         btnFuturePerfect.setOnClickListener(v -> navigateToTenseLayout("mfpt"));
 
         return view;

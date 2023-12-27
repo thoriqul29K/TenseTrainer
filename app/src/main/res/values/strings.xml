@@ -249,7 +249,7 @@ Formula = <font color="#FF0000">Subject</font> + <font color="#666666">will</fon
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
+<!--Past Pefik tense-->
     <string name="PPTcrt">1. <b>Describing an action before another action in the past</b>\n\n
 
 The Past Perfect tense is primarily used to express an action that occurred and was completed before another action or event took place in the past. It helps establish the sequence of events by highlighting that one action happened prior to another.\n\n\n
@@ -282,5 +282,55 @@ examples:\n\n\n
 
 <font color="#666666">Had</font> <font color="#FF0000">you</font> ever <font color="#673AB7">traveled</font> abroad before your trip to Europe?\n
 <font color="#666666">Had</font> <font color="#FF0000">they</font> <font color="#673AB7">finished</font> their work by the deadline?\n\n\n</string>
+<!--Present Perfect Tense-->
+    <string name="PRPTcrt">1. <b>Connection to the Present</b>\n\n
 
+The Present Perfect Tense emphasizes the relationship between past actions and the present moment. It suggests that the action or event has relevance or importance now.\n\n\n
+
+2. <b>Unspecified Time</b>\n\n
+
+The exact time of the action or event is not mentioned. The focus is on the result or consequence of the action rather than when it occurred.\n\n\n
+
+3. <b>Completion or Continuation</b>\n\n
+
+The Present Perfect can indicate that an action or event has been completed or that it is still ongoing.
+Forms of Present Perfect Tense\n\n\n</string>
+    
+    <string name="PRPTforms">Positive Form (+):\n\n
+
+The positive form of the Present Perfect Tense is used to <b>make statements or express affirmative actions or events that have occurred in the past and have a relevance or impact on the present</b>. It focuses on the completion or continuation of the action or event.\n\n\n
+
+Formula = <font color="#FF0000">Subject</font> + <font color="#666666">have/has</font> + <font color="#673AB7">verb 2</font>\n\n\n
+
+
+Examples:\n\n
+
+<font color="#FF0000">I</font> <font color="#666666">have</font> <font color="#673AB7">visited</font> Kyiv.\n
+<font color="#FF0000">She</font> <font color="#666666">has</font> <font color="#673AB7">finished</font> her work.\n\n\n
+
+Negative Form (-):\n\n
+
+The negative form of the Present Perfect Tense is used to <b>express negation or denial of actions or events that have not occurred up until the present moment</b>. It indicates that the action or event has not been completed or has not taken place.\n\n\n
+
+Formula = <font color="#FF0000">Subject</font> + <font color="#666666">have/has</font> + <font color="#FFEB3B">not</font> + <font color="#673AB7">verb 2</font>\n\n\n
+
+Examples:\n\n
+
+<font color="#FF0000">They</font> <font color="#666666">have</font><font color="#FFEB3B">n\u0027t</font> <font color="#673AB7">seen</font> the movie.\n
+<font color="#FF0000">He</font> <font color="#666666">has</font><font color="#FFEB3B">n\u0027t</font> <font color="#673AB7">studied</font> for the exam.\n\n\n
+
+Interrogative Form (?):\n\n
+
+The interrogative form of the Present Perfect Tense is used to <b>ask questions about actions or events that have occurred in the past but have a connection to the present</b>. It seeks information or confirmation about the completion or continuation of the action or event.\n\n\n
+
+Formula = <font color="#666666">Have/Has</font> + <font color="#FF0000">subject</font> + <font color="#673AB7">verb 2</font>\n\n\n
+
+Examples:\n\n
+
+<font color="#666666">Have</font> <font color="#FF0000">you</font> <font color="#673AB7">traveled</font> to Ukraine?\n
+<font color="#666666">Has</font> <font color="#FF0000">she</font> <font color="#673AB7">read</font> that book?
+</string>
+<!-- Masa depan sempurna tensi-->
+    <string name="FPTcrt">a</string>
+    <string name="FPTforms">b</string>
 </resources>
