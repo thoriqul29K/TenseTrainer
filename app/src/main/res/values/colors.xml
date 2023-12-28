@@ -11,4 +11,7 @@
     <color name="biru">#3F51B5</color>
     <color name="kuning">#FFEB3B</color>
     <color name="oren">#FF5722</color>
+    <color name="pink">#FE00DD</color>
+    <color name="complement">#6195B9</color>
+
 </resources>

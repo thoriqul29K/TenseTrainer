@@ -64,8 +64,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:layout_below="@id/PRPTJIntro"
-                android:text="The Present Perfect Tense is a verb tense used to describe actions or events that began in the past but have a connection to the present. It is often used to talk about experiences, achievements, or actions that have an impact on the present moment. In English, the Present Perfect Tense is formed by using the auxiliary verb 'have' or 'has' followed by the past participle of the main verb."
+                android:layout_below="@id/FPTJIntro"
+                android:text="The Future Perfect Tense is used to describe an action that will be completed in the future before another action or time reference point. It is often used to indicate the completion of an action by a certain point in the future."
                 android:layout_marginTop="20dp"
                 android:textSize="15sp"
                 android:padding="16dp"/>
