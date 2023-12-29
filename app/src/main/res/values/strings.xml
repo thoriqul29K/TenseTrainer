@@ -350,5 +350,35 @@ The Future Perfect Tense is often used to talk about future events that are imag
 
 5. <b>Formal and Written Contexts</b>\n\n
 The Future Perfect Tense is more commonly found in formal writing, academic contexts, or technical documents. It is less frequently used in everyday spoken conversations.\n\n\n</string>
-    <string name="FPTforms">b</string>
+    <string name="FPTforms">Positive Form (+):\n\n
+The positive form of the Future Perfect Tense is used to <b>indicate that an action will be completed before a specific time or event in the future</b>. It emphasizes the completion of the action.\n\n\n
+Formula (verbal) = <font color="#FF0000">Subject</font>  + <font color="#666666">will/shall</font>  + <font color="#4CAF50">have</font>  + <font color="#673AB7">verb 3</font> \n\n
+Formula (nominal) = <font color="#FF0000">Subject</font>  + <font color="#666666">will/shall</font>  + <font color="#4CAF50">have</font>  + <font color="#FE00DD">been</font>  + <font color="#6195B9">complement</font> \n\n\n
+
+Example:\n\n
+By the time I arrive at the airport, <font color="#FF0000">the plane</font> <font color="#666666">will</font> <font color="#4CAF50">have</font> already <font color="#673AB7">departed</font> .\n
+    <font color="#FF0000">They</font>  <font color="#666666">will</font> <font color="#4CAF50">have</font> <font color="#673AB7">finished</font> their project by the end of the week.\n
+    By next year, <font color="#FF0000">she</font> <font color="#666666">will</font> <font color="#4CAF50">have</font> <font color="#FE00DD">been</font> <font color="#6195B9">a doctor</font> for 10 years.\n\n\n
+
+
+    Negative Form (-):\n\n
+    The negative form of the Future Perfect Tense is used to <b>indicate that an action will not be completed before a specific time or event in the future</b>. It emphasizes the non-completion or absence of the action.\n\n\n
+    Formula (verbal) = <font color="#FF0000">Subject</font> + <font color="#666666">will/shall</font> + <font color="#FFEB3B">not</font> + <font color="#4CAF50">have</font> + <font color="#673AB7">verb 3</font>\n\n
+    Formula (nominal)= <font color="#FF0000">Subject</font> + <font color="#666666">will/shall</font> + <font color="#FFEB3B">not</font> + <font color="#4CAF50">have</font> + <font color="#FE00DD">been</font> + <font color="#6195B9">complement</font>\n\n\n
+
+    Example:\n\n
+    <font color="#FF0000">She</font> <font color="#666666">will</font> <font color="#FFEB3B">not</font> <font color="#4CAF50">have</font> <font color="#673AB7">completed</font> her assignment before the deadline.\n
+    <font color="#FF0000">The company</font> <font color="#666666">will</font> <font color="#FFEB3B">not</font> <font color="#4CAF50">have</font> <font color="#673AB7">launched</font> the new product by next month.\n
+    <font color="#FF0000">The company</font> <font color="#666666">will</font> <font color="#FFEB3B">not</font> <font color="#4CAF50">have</font> <font color="#FE00DD">been</font> <font color="#6195B9">in operation</font> for a decade by the end of the month.\n\n\n
+
+    Interrogative Form (?):\n\n
+    The interrogative form of the Future Perfect Tense is used to <b>ask about the completion of an action before a specific time or event in the future</b>. It seeks information or confirmation about the completion of the action.\n\n\n
+    Formula (verbal) = <font color="#666666">Will/shall</font> + <font color="#FF0000">subject</font> + <font color="#4CAF50">have</font> + <font color="#673AB7">verb 3?</font>\n\n
+        Formula (nominal)= <font color="#666666">Will/shall</font> + <font color="#FF0000">subject</font> + <font color="#4CAF50">have</font> + <font color="#FE00DD">been</font> + <font color="#6195B9">complement?</font>\n\n\n
+
+    Example:\n\n
+
+    <font color="#666666">Will</font> <font color="#FF0000">you</font> <font color="#4CAF50">have</font> <font color="#673AB7">finished</font> your homework by tomorrow?\n
+    By the time we get there, <font color="#666666">will</font> <font color="#FF0000">they</font> <font color="#4CAF50">have</font> <font color="#673AB7">finished</font> their lunch?\n
+    <font color="#666666">Shall</font> <font color="#FF0000">they</font> <font color="#4CAF50">have</font> <font color="#FE00DD">been</font> <font color="#6195B9">friends</font> since childhood?\n\n</string>
 </resources>

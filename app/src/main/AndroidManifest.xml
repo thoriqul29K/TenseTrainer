@@ -66,6 +66,10 @@
             android:name=".PresentPerfectTenseQuizActivity"
             android:exported="true" >
         </activity>
+        <activity
+            android:name=".FuturePerfectTenseQuizActivity"
+            android:exported="true" >
+        </activity>
     </application>
 
 </manifest>

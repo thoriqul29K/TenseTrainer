@@ -1,0 +1,519 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FuturePerfectTenseQuizActivity">
+
+    <!-- Header Section -->
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="wrap_content">
+
+        <!-- Back Button -->
+        <ImageButton
+            android:contentDescription="back to main menu"
+            android:id="@+id/backButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:background="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_backbt" />
+
+        <!-- Header Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/backButton"
+            android:text="Future Perfect Tense"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout"
+        android:background="@color/white"
+        android:layout_marginTop="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Question 1 -->
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Which form of the Future Perfect Tense is used to express the completion of an action before a specific time or event in the future?"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 1 -->
+                <RadioButton
+                    android:id="@+id/answer1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Positive form (+)"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Negative form (-)"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Question form (?)"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) All of the above."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Question 2 -->
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2. What is the correct positive form formula of the Future Perfect Tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 2 -->
+                <RadioButton
+                    android:id="@+id/answer2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Will + subject + not + have + verb 3."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Subject + will/shall + verb 1."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Will + subject + have + been + complement?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer2d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Subject + will/shall + have + verb 3."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3. Which signal words are commonly used with the Future Perfect Tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- RadioButtons for Question 3 -->
+                <RadioButton
+                    android:id="@+id/answer3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Today, tomorrow, yesterday."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Now, soon, later."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) By, before, by the time."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer3d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Always, never, sometimes."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 4-->
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4. In which situations is the Future Perfect Tense commonly used?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Everyday conversations."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Formal and written contexts."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Informal emails or messages."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer4d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) All of the above."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 5-->
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="5. Which form of the Future Perfect Tense indicates the non-completion of an action before a specific time or event in the future?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer5a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Positive form (+)"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer5b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Negative form (-)"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer5c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Question form (?)"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer5d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) None of the above"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 6-->
+            <TextView
+                android:id="@+id/question6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="6. Which sentence uses the correct negative form of the Future Perfect Tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer6a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) By tomorrow, they will not have gone to the concert."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer6b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) By next week, she will have not finished her project."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer6c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) By the end of the month, he will not have seen the movie."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer6d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) By the time they arrive, we will not have left."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 7-->
+            <TextView
+                android:id="@+id/question7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="7. Which form of the Future Perfect Tense is used to ask about the completion of an action before a specific time or event in the future?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Positive form (+)"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Negative form (-)"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer7c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Question form (?)"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer7d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) None of the above."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 8-->
+            <TextView
+                android:id="@+id/question8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="8. What is the correct formula for interrogative form of Future Perfect Tense?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer8a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Will/shall + subject + verb 1?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Will/shall + subject + have + verb 3?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Will/shall + subject + not + have + verb 3?"
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer8d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Will/shall + subject + be + verb-ing?"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!--No 9-->
+            <TextView
+                android:id="@+id/question9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="9. What is the main verb in the sentence 'By the time I arrive at the airport, the plane will have already departed.'?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer9a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) Arrive."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) Time."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) Plane."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer9d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) Departed."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Question 10 -->
+            <TextView
+                android:id="@+id/question10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10. Which subjects can use the auxiliary verb 'shall' in the Future Perfect Tense?"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:id="@+id/rgQuestion10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <!-- RadioButtons for Question 10 -->
+                <RadioButton
+                    android:id="@+id/answer10a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="a) I and we."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="b) You and they."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="c) He, she, it."
+                    android:textColor="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/answer10d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="d) All subjects can use 'shall'."
+                    android:textColor="@color/black" />
+            </RadioGroup>
+
+            <!-- Finish Button -->
+            <Button
+                android:id="@+id/finishButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finish"
+                android:background="@drawable/tombol_roundedcorner"
+                android:backgroundTint="@color/hijau"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

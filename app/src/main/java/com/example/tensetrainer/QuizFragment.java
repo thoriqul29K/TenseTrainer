@@ -29,6 +29,7 @@ public class QuizFragment extends Fragment {
         Button btnFutureContinuousQuiz = view.findViewById(R.id.btnFutureContinuousQuiz);
         Button btnPastPerfectQuiz = view.findViewById(R.id.btnPastPerfectQuiz);
         Button btnPresentPerfectQuiz = view.findViewById(R.id.btnPresentPerfectQuiz);
+        Button btnFuturePerfectQuiz = view.findViewById(R.id.btnFuturePerfectQuiz);
         // Add similar lines for other quiz buttons
 
         // Set click listeners for each quiz button
@@ -40,6 +41,7 @@ public class QuizFragment extends Fragment {
         btnFutureContinuousQuiz.setOnClickListener(v -> navigateToFutureContinuousTenseQuiz());
         btnPastPerfectQuiz.setOnClickListener(v -> navigateToPastPerfectTenseQuiz());
         btnPresentPerfectQuiz.setOnClickListener(v -> navigateToPresentPerfectTenseQuiz());
+        btnFuturePerfectQuiz.setOnClickListener(v -> navigateToFuturePerfectTenseQuiz());
         // Add similar lines for other quiz buttons
 
         return view;
@@ -76,6 +78,10 @@ public class QuizFragment extends Fragment {
     }
     private void navigateToPresentPerfectTenseQuiz() {
         Intent intent = new Intent(getActivity(), PresentPerfectTenseQuizActivity.class);
+        startActivity(intent);
+    }
+    private void navigateToFuturePerfectTenseQuiz() {
+        Intent intent = new Intent(getActivity(), FuturePerfectTenseQuizActivity.class);
         startActivity(intent);
     }
 }

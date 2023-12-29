@@ -71,7 +71,7 @@ public class ScoreActivity extends AppCompatActivity {
 
         int nextQuizLayout = getNextQuizLayout(alphabeticalScore);
 
-        Intent intent = new Intent(ScoreActivity.this, QuizLayoutActivity.class);
+        Intent intent = new Intent(ScoreActivity.this, MainMenuActivity.class);
         intent.putExtra("layoutResourceId", nextQuizLayout);
         startActivity(intent);
         finish();
