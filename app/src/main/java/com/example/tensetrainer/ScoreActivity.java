@@ -23,6 +23,7 @@ public class ScoreActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(ScoreActivity.this, MainMenuActivity.class);
                 startActivity(intent);
+                finishAffinity();
             }
         });
 

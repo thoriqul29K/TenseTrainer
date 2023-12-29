@@ -1,7 +1,7 @@
 <resources xmlns:background="http://schemas.android.com/apk/res-auto">
     <string name="app_name">TenseTrainer</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="Devs">By <b><u><font color="#FF000000">ireng</font></u></b> company</string>
+    <string name="Devs"><b>By <font color="#000000"><u>Group 1</u></font></b></string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u0027s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
     <string name="htmltexttest"><b>Bold</b> <i>Italic</i> <u>Underlined</u> <br>  Line 2 </br> <font color="#FF0000">Red</font> <a href="http://www.google.com">Google</a> <sup>Superscript</sup> <sub>Subscript</sub></string>
@@ -275,7 +275,7 @@ Time expressions are commonly used with the Past Perfect tense to provide furthe
     <string name="PPTforms">Positive Form (+):\n\n
 The positive form of the Past Perfect tense is used to <b>make affirmative statements about past events</b>. It indicates that an action was completed before another action or event took place in the past.\n\n\n
 Formula = <font color="#FF0000">Subject</font> + <font color="#666666">had</font> + <font color="#673AB7">verb 2</font>
-examples:\n\n\n
+Examples:\n\n\n
 
 <font color="#FF0000">She</font> <font color="#666666">had</font> already <font color="#673AB7">finished</font> her homework before her friends arrived.\n
 By the time I reached the cinema, <font color="#FF0000">the movie</font> <font color="#666666">had</font> already <font color="#673AB7">started</font>.\n\n\n
@@ -283,7 +283,7 @@ By the time I reached the cinema, <font color="#FF0000">the movie</font> <font c
 Negative Form (-):\n\n
 The negative form of the Past Perfect tense is used to <b>make negative statements about past events</b>. It indicates that an action did not occur or was not completed before another action or event in the past.\n\n\n
 Formula = <font color="#FF0000">Subject</font> + <font color="#666666">had</font> <font color="#FFEB3B">not</font> (<font color="#666666">had</font><font color="#FFEB3B">n\u0027t</font>) + <font color="#673AB7">verb 2</font>\n\n\n
-examples:\n\n\n
+Examples:\n\n\n
 
 <font color="#FF0000">They</font> <font color="#666666">had</font><font color="#FFEB3B">n\u0027t</font> <font color="#673AB7">visited</font> Paris before their honeymoon.\n
 <font color="#FF0000">The train</font> <font color="#666666">had</font> <font color="#FFEB3B">not</font> left the station when we <font color="#673AB7">arrived</font>.\n\n\n
@@ -291,7 +291,7 @@ examples:\n\n\n
 Interrogative Form (?):\n\n
 The interrogative form of the Past Perfect tense is used to <b>ask questions about past events</b>. It seeks information about whether an action was completed before another action or event in the past.\n\n
 Formula = <font color="#666666">Had</font> + <font color="#FF0000">subject</font> + <font color="#673AB7">verb 2</font>\n\n\n
-examples:\n\n\n
+Examples:\n\n\n
 
 <font color="#666666">Had</font> <font color="#FF0000">you</font> ever <font color="#673AB7">traveled</font> abroad before your trip to Europe?\n
 <font color="#666666">Had</font> <font color="#FF0000">they</font> <font color="#673AB7">finished</font> their work by the deadline?\n\n\n</string>
