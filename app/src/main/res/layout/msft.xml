@@ -114,13 +114,23 @@
                 android:layout_marginTop="20dp"
                 android:textSize="15sp"
                 android:padding="16dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Continuetonextmaterial"
+                android:text="Learn next tense!"
+                android:textColor="@color/white"
+                android:background="@drawable/tombol_roundedcorner"
+                android:backgroundTint="@color/hijau"
+                android:layout_below="@id/SFTforms"
+                android:layout_marginTop="13dp"/>
 
             <TextView
                 android:id="@+id/Devs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:layout_below="@id/SFTforms"
+                android:layout_below="@id/Continuetonextmaterial"
                 android:text="@string/Devs"
                 android:gravity="center"
                 android:background="@color/hijau"

@@ -1,6 +1,8 @@
 package com.example.tensetrainer;
 
 import android.os.Bundle;
+import android.os.Process;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
@@ -58,4 +60,15 @@ public class MainMenuActivity extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onBackPressed() {
+        // Finish the current activity (MainMenuActivity)
+        super.onBackPressed();
+        finish();
+
+        // Exit the app
+        Process.killProcess(Process.myPid());
+        System.exit(1);
+    }
+
 }
