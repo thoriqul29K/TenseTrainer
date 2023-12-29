@@ -1,6 +1,7 @@
 package com.example.tensetrainer;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -37,61 +38,34 @@ public class ScoreActivity extends AppCompatActivity {
         String alphabeticalScore = calculateAlphabeticalScore(userScore);
         tvAlphabeticalScore.setText(alphabeticalScore);
 
-        // Set up the "afterquizbt" button based on the user's score
-        Button afterQuizButton = findViewById(R.id.afterquizbt);
+        // Set text color based on alphabetical score
+        int color = getColorForAlphabeticalScore(alphabeticalScore);
+        tvAlphabeticalScore.setTextColor(color);
 
-        if (alphabeticalScore.equals("C") || alphabeticalScore.equals("D")) {
-            // If the user got a C or D, set up the button to go back to the material page
-            afterQuizButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    navigateToMaterialPage();
-                }
-            });
+        TextView afterQuizTextView = findViewById(R.id.afterquiztv);
+        if (userScore >= 7) {
+            afterQuizTextView.setText("You passed the quiz with a high score\n good job!");
         } else {
-            // If the user got an A or B, set up the button to go to the next quiz
-            afterQuizButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    navigateToNextQuiz();
-                }
-            });
+            afterQuizTextView.setText("You got a low score?\n Don't lose hope!\n re-learn the material and try again!");
         }
+
+
     }
 
-    private void navigateToMaterialPage() {
-        Intent intent = new Intent(ScoreActivity.this, MaterialLayoutActivity.class);
-        startActivity(intent);
-        finish();
-    }
-
-    private void navigateToNextQuiz() {
-        int userScore = getIntent().getIntExtra("userScore", 0);
-        String alphabeticalScore = calculateAlphabeticalScore(userScore);
-
-        int nextQuizLayout = getNextQuizLayout(alphabeticalScore);
-
-        Intent intent = new Intent(ScoreActivity.this, MainMenuActivity.class);
-        intent.putExtra("layoutResourceId", nextQuizLayout);
-        startActivity(intent);
-        finish();
-    }
-
-
-    private int getNextQuizLayout(String alphabeticalScore) {
+    private int getColorForAlphabeticalScore(String alphabeticalScore) {
         switch (alphabeticalScore) {
             case "A":
-                return R.layout.mfct; // Replace with the layout for the next quiz after A
-             case "B":
-    return R.layout.mfct;
-
+                return Color.parseColor("#4CAF50");
+            case "B":
+                return Color.parseColor("#673AB7");
+            case "C":
+                return Color.parseColor("#FF5722");
+            case "D":
+                return Color.parseColor("#FF0000");
             default:
-                // Default case: return a fallback layout or handle accordingly
-                return R.layout.activity_main_menu;
+                return Color.BLACK;
         }
     }
-
-
 
     private String calculateAlphabeticalScore(int userScore) {
         if (userScore >= 9) {

@@ -13,7 +13,7 @@
         android:id="@+id/tvScore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="bener berapa cuy?"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,7 +40,7 @@
         android:id="@+id/user2ndscore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="Dapet apa hayo"
         android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,33 +48,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvScore" />
 
-    <Button
-        android:id="@+id/afterquizbt"
-        android:layout_width="350dp"
+    <TextView
+        android:id="@+id/afterquiztv"
+        android:layout_width="310dp"
         android:layout_height="wrap_content"
-        android:text="Men di teken galak crash men dapet a atau b tombol ini"
-        android:textColor="@color/black"
+        android:text="pesan lmao pisan kang nguyen"
+        android:textColor="@color/ungu"
+        android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.878" />
+        app:layout_constraintVertical_bias="0.81" />
 
     <Button
         android:id="@+id/mainmenubutton"
         android:layout_width="350dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/tombol_roundedcorner"
         android:backgroundTint="@color/hijau"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
         android:text="Main Menu"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/afterquizbt"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/afterquiztv"
+        app:layout_constraintVertical_bias="0.786" />
 
     <TextView
         android:id="@+id/questfinishedtext"
